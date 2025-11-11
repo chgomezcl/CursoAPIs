@@ -1,0 +1,51 @@
+# --- Entorno virtual ---
+
+.venv/
+
+.s6venv/
+
+env/
+
+venv/
+ 
+# --- Archivos de base de datos ---
+
+app/database.db
+
+*.sqlite3
+
+*.db
+ 
+# --- Logs de aplicación ---
+
+app.log
+
+logs/
+
+*.log
+ 
+# --- Archivos de configuración privados ---
+
+.env
+ 
+# --- Archivos temporales de Python ---
+
+__pycache__/
+
+*.pyc
+
+*.pyo
+
+*.pyd
+ 
+# --- Archivos de editor / sistema ---
+
+.vscode/
+
+.DS_Store
+
+Thumbs.db
+ 
+# --- Checkpoints de notebooks ---
+
+*.ipynb_checkpoints/
